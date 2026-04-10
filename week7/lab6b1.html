@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .products{
+            display:grid;
+            grid-template-columns:auto auto auto;
+            grid-template-rows:1fr,1fr;
+            grid-template-areas:repeat(3,1fr);
+            gap:20px;
+            padding:20px;
+        }
+        .books{
+            border:3px solid rgb(9, 9, 9);
+        }
+    </style>
+    <body>
+        <div class="products">
+            <div class="books">
+                <img src="book1.avif" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman'">sipder man</h3>
+                <p>price:$9.21</p>
+                <button>Add to wishlist</button>
+            </div>
+            <div class="books">
+                <img src="book2.jpg" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman'">The flash</h3>
+                <p>price:$5.12</p>
+                <button>Add to Wishlist</button>
+            </div>
+            <div class="books">
+                <img src="book3.jpg" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman'">F1 </h3>
+                <p>price:$7.35</p>
+                <button>Add to wishlist</button>
+            </div>
+            <div class="books">
+                <img src="book4.png" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman'">Jersey</h3>
+                <p>price:$6.23</p>
+                <button>Add to Wishlist</button>
+            </div>
+            <div class="books">
+                <img src="book5.jpg" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman'">monkey king</h3>
+                <p>price:$5.89</p>
+                <button>Add to wishlist</button>
+            </div>
+            <div class="books">
+                <img src="book6.jpg" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman'">jungle book</h3>
+                <p>price:$4.78</p>
+                <button>Add to Wishlist</button>
+            </div>
+        </div>
+    </body>
+</html>
